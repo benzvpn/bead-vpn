@@ -18,11 +18,11 @@ fi
 if [[ -z "$GITHUB_REPO" || -z "$DOMAIN" || -z "$ADMIN_USER" || -z "$ADMIN_PASS" ]]; then
   cat >&2 <<'EOF'
 Usage:
-  sudo GITHUB_REPO=yourname/bead-vpn bash install-github.sh domain.com admin panel-password
+  sudo GITHUB_REPO=benzvpn/bead-vpn bash install-github.sh domain.com admin panel-password
 
 From GitHub raw URL:
-  curl -fsSL https://raw.githubusercontent.com/yourname/bead-vpn/main/install-github.sh -o /tmp/install-github.sh
-  sudo GITHUB_REPO=yourname/bead-vpn bash /tmp/install-github.sh domain.com admin panel-password
+  curl -fsSL https://raw.githubusercontent.com/benzvpn/bead-vpn/main/install-github.sh -o /tmp/install-github.sh
+  sudo GITHUB_REPO=benzvpn/bead-vpn bash /tmp/install-github.sh domain.com admin panel-password
 EOF
   exit 1
 fi
