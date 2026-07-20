@@ -1,8 +1,8 @@
 #!/usr/bin/env bash
 set -Eeuo pipefail
 
-GITHUB_REPO="${GITHUB_REPO:-}"
-GITHUB_BRANCH="${GITHUB_BRANCH:-main}"
+GITHUB_REPO="benzvpn"
+GITHUB_BRANCH="bead-vpn"
 
 DOMAIN="${1:-}"
 ADMIN_USER="${2:-admin}"
